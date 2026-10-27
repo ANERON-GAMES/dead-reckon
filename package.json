@@ -1,0 +1,37 @@
+{
+  "name": "@aneron/dead-reckon",
+  "version": "1.0.0",
+  "description": "Deterministic dead reckoning for networked entities.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "dead-reckoning",
+    "prediction",
+    "correction"
+  ],
+  "author": "Vadim Gubin",
+  "license": "MIT",
+  "sideEffects": false,
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "prettier": "^3.9.10"
+  }
+}
